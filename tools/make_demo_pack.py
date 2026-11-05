@@ -339,7 +339,7 @@ SPECS = {
         ('sad', {'eyes': 'open', 'mouth': 'frown', 'tear': True}),
         ('cry', {'eyes': 'closed', 'mouth': 'wavy', 'tear': True, 'tear2': True}),
     ],
-    'shy': [('shy', {'eyes': 'happy', 'mouth': 'smile', 'blush': True, 'hands': True})],
+    'shy': [('shy', {'eyes': 'closed', 'mouth': 'smile', 'blush': True, 'hands': True})],
     'confused': [('confused', {'eyes': 'open', 'mouth': 'wavy', 'brows': 'question', 'sweat': True})],
     'surprised': [('surprised', {'eyes': 'wide', 'mouth': 'o', 'sweat': True})],
     'sleep': [('sleep', {'eyes': 'closed', 'mouth': 'o', 'zzz': True})],
