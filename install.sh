@@ -8,6 +8,10 @@ SOURCE=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 TARGET=${GROKBOT_MEME_HOME:-$HOME/.grokbot-meme}
 
 command -v python3 >/dev/null 2>&1 || { echo "python3 3.9+ is required" >&2; exit 1; }
+python3 -c 'import sys; raise SystemExit(0 if sys.version_info >= (3, 9) else 1)' || {
+    echo "python3 3.9+ is required (found $(python3 -V 2>&1))" >&2
+    exit 1
+}
 
 mkdir -p "$TARGET/bin" "$TARGET/src" "$TARGET/data" "$TARGET/stickers" "$TARGET/skill"
 cp "$SOURCE/bin/gb-meme" "$TARGET/bin/gb-meme"
