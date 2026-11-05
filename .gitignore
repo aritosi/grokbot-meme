@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Runtime state and local configuration
+data/config.json
+data/runtime.json
+data/config.broken.*.json
+
+# Imported packs; only the bundled CC0 demo pack is tracked
+stickers/*
+!stickers/demo/
+!stickers/demo/**

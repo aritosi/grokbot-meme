@@ -1,0 +1,514 @@
+[
+  {
+    "id": "angry",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "angry",
+    "path": "stickers/demo/angry/angry.png",
+    "description": "angry",
+    "keywords": [
+      "生气",
+      "angry",
+      "😡",
+      "愤怒",
+      "气死",
+      "别吵"
+    ],
+    "animated": false,
+    "content_hash": "1a16ca000e5c2521898370c6630b1b22cee670589cbde87f48d24439960bc094"
+  },
+  {
+    "id": "steam",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "angry",
+    "path": "stickers/demo/angry/steam.png",
+    "description": "steam",
+    "keywords": [
+      "生气",
+      "angry",
+      "😡",
+      "愤怒",
+      "气死",
+      "别吵"
+    ],
+    "animated": false,
+    "content_hash": "d9d28af89eed1ec98a5a585ae257ccebcfb48776e1451fd265aaf831feeccb67"
+  },
+  {
+    "id": "baka",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "baka",
+    "path": "stickers/demo/baka/baka.png",
+    "description": "baka",
+    "keywords": [
+      "baka"
+    ],
+    "animated": false,
+    "content_hash": "ae8a7e45f4877f5665ef4cd0f6be06aa60b7d9ef5368147e0eb7fc14f6cad11d"
+  },
+  {
+    "id": "celebrate",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "celebrate",
+    "path": "stickers/demo/celebrate/celebrate.png",
+    "description": "celebrate",
+    "keywords": [
+      "庆祝",
+      "加油",
+      "celebrate",
+      "✨",
+      "🎉",
+      "成功",
+      "搞定",
+      "好耶"
+    ],
+    "animated": false,
+    "content_hash": "6a845d2952ed487ba8b965ccb8ddacd89d6cf19942772fd779038611a88c1008"
+  },
+  {
+    "id": "color",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "color",
+    "path": "stickers/demo/color/color.png",
+    "description": "color",
+    "keywords": [
+      "color"
+    ],
+    "animated": false,
+    "content_hash": "f722c2c32f2d608fb194993faf504e00f26863841d0de757e3dc942ee858daba"
+  },
+  {
+    "id": "confused",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "confused",
+    "path": "stickers/demo/confused/confused.png",
+    "description": "confused",
+    "keywords": [
+      "困惑",
+      "疑惑",
+      "confused",
+      "❓",
+      "不懂",
+      "你确定",
+      "问号"
+    ],
+    "animated": false,
+    "content_hash": "4e972750fc01c435140731725a88024786ed3b729214f734da7fef7b55d72332"
+  },
+  {
+    "id": "cool",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "cool",
+    "path": "stickers/demo/cool/cool.png",
+    "description": "cool",
+    "keywords": [
+      "酷",
+      "cool",
+      "😎"
+    ],
+    "animated": false,
+    "content_hash": "c0895a2a571143985a9af2ab48fc7ea24f7a259dd40425fab46a6c028d38b5c8"
+  },
+  {
+    "id": "cpu",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "cpu",
+    "path": "stickers/demo/cpu/cpu.png",
+    "description": "cpu",
+    "keywords": [
+      "烧脑",
+      "宕机",
+      "cpu"
+    ],
+    "animated": false,
+    "content_hash": "b11fd932edd3ee1654f237be4080013b58a3789918e16d9721c1fe4ef496b042"
+  },
+  {
+    "id": "daily",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "daily",
+    "path": "stickers/demo/daily/daily.png",
+    "description": "daily",
+    "keywords": [
+      "摸鱼",
+      "daily"
+    ],
+    "animated": false,
+    "content_hash": "db96d2a85ebb3dbd1519a21e4cbe00ae81b981d79ff4567afc36e8c2b5b1d7a2"
+  },
+  {
+    "id": "fool",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "fool",
+    "path": "stickers/demo/fool/fool.png",
+    "description": "fool",
+    "keywords": [
+      "fool"
+    ],
+    "animated": false,
+    "content_hash": "a93719138b26ee247769f1fbfbe272d85e9a11ee8b3663e4035f72cc0d73e2c8"
+  },
+  {
+    "id": "givemoney",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "givemoney",
+    "path": "stickers/demo/givemoney/givemoney.png",
+    "description": "givemoney",
+    "keywords": [
+      "givemoney"
+    ],
+    "animated": false,
+    "content_hash": "0c12ea6c2faf9c0f92e9e4f3e9bcd430434ecec03672e6ade7877c497f7c6356"
+  },
+  {
+    "id": "cheer",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "happy",
+    "path": "stickers/demo/happy/cheer.png",
+    "description": "cheer",
+    "keywords": [
+      "开心",
+      "哈哈",
+      "笑死",
+      "happy",
+      "haha",
+      "🙂",
+      "😂",
+      "哈哈哈",
+      "乐死",
+      "好笑",
+      "高兴",
+      "绷不住"
+    ],
+    "animated": false,
+    "content_hash": "5eb8ae1812dd8b1db78cdc758cee10a67cc84e21208e50c23ea44458f8a9a0c5"
+  },
+  {
+    "id": "happy-blink",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "happy",
+    "path": "stickers/demo/happy/happy-blink.gif",
+    "description": "happy-blink",
+    "keywords": [
+      "开心",
+      "哈哈",
+      "笑死",
+      "happy",
+      "haha",
+      "🙂",
+      "😂",
+      "哈哈哈",
+      "乐死",
+      "好笑",
+      "高兴",
+      "绷不住"
+    ],
+    "animated": true,
+    "content_hash": "043e89de12afb9a7f3722d0df1671e3021ce6437ee92f87cce6ed4adbe3aea04"
+  },
+  {
+    "id": "happy",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "happy",
+    "path": "stickers/demo/happy/happy.png",
+    "description": "happy",
+    "keywords": [
+      "开心",
+      "哈哈",
+      "笑死",
+      "happy",
+      "haha",
+      "🙂",
+      "😂",
+      "哈哈哈",
+      "乐死",
+      "好笑",
+      "高兴",
+      "绷不住"
+    ],
+    "animated": false,
+    "content_hash": "792279c2fb23e7bd475197d073db5c7575116df7d7a674100eae14daa1d48c87"
+  },
+  {
+    "id": "hug",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "hug",
+    "path": "stickers/demo/hug/hug.png",
+    "description": "hug",
+    "keywords": [
+      "抱抱",
+      "hug"
+    ],
+    "animated": false,
+    "content_hash": "446f9e2385ec5577a11247283de7ba9abf68f913bb28cacd18a1444d1ec4e7ad"
+  },
+  {
+    "id": "like",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "like",
+    "path": "stickers/demo/like/like.png",
+    "description": "like",
+    "keywords": [
+      "喜欢",
+      "爱你",
+      "like",
+      "❤️"
+    ],
+    "animated": false,
+    "content_hash": "f6d4d2106e45103214a51bb07fcbf729ac65c41af6b29ec7537e447c2a813299"
+  },
+  {
+    "id": "meow",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "meow",
+    "path": "stickers/demo/meow/meow.png",
+    "description": "meow",
+    "keywords": [
+      "喵",
+      "meow"
+    ],
+    "animated": false,
+    "content_hash": "36130d5677ef0e6af93cce30d56c0ebef14d3e09bc7624478ef8c275dd7f5ee4"
+  },
+  {
+    "id": "morning",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "morning",
+    "path": "stickers/demo/morning/morning.png",
+    "description": "morning",
+    "keywords": [
+      "早安",
+      "morning"
+    ],
+    "animated": false,
+    "content_hash": "6a032797efe6dce50e59e80b41c9f3037eefdb4e6c5630bf7296100ae32c9ab0"
+  },
+  {
+    "id": "cry",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "sad",
+    "path": "stickers/demo/sad/cry.png",
+    "description": "cry",
+    "keywords": [
+      "哭",
+      "难过",
+      "sad",
+      "😭",
+      "哭哭",
+      "呜呜",
+      "泪目",
+      "伤心",
+      "委屈",
+      "难受"
+    ],
+    "animated": false,
+    "content_hash": "ee462222a7388067f802a46bcc32e45e4157fb05d1a7d7951ea02c3f5e97cb9f"
+  },
+  {
+    "id": "sad",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "sad",
+    "path": "stickers/demo/sad/sad.png",
+    "description": "sad",
+    "keywords": [
+      "哭",
+      "难过",
+      "sad",
+      "😭",
+      "哭哭",
+      "呜呜",
+      "泪目",
+      "伤心",
+      "委屈",
+      "难受"
+    ],
+    "animated": false,
+    "content_hash": "5cc59206fc424763c9bdfad6ee4aa883982ca0bfc6e0b84bf500a05f74dc9ea7"
+  },
+  {
+    "id": "see",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "see",
+    "path": "stickers/demo/see/see.png",
+    "description": "see",
+    "keywords": [
+      "see"
+    ],
+    "animated": false,
+    "content_hash": "086d07b21cf786f5d168984c4f756d592808929c630adf3556409081fd64ffce"
+  },
+  {
+    "id": "shy",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "shy",
+    "path": "stickers/demo/shy/shy.png",
+    "description": "shy",
+    "keywords": [
+      "害羞",
+      "shy",
+      "😳",
+      "脸红",
+      "不好意思"
+    ],
+    "animated": false,
+    "content_hash": "49faed52b9e27c7e468c8e83194ce70f74f515dc0fef0c82f4a16fa42dd8ca04"
+  },
+  {
+    "id": "sigh",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "sigh",
+    "path": "stickers/demo/sigh/sigh.png",
+    "description": "sigh",
+    "keywords": [
+      "无语",
+      "冷漠",
+      "叹气",
+      "心累",
+      "sigh"
+    ],
+    "animated": false,
+    "content_hash": "db30d250dd5491137ce4eaa59593105bc66b3be4d22c44e82cc03f0d673dbebf"
+  },
+  {
+    "id": "sleep-zzz",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "sleep",
+    "path": "stickers/demo/sleep/sleep-zzz.gif",
+    "description": "sleep-zzz",
+    "keywords": [
+      "睡觉",
+      "晚安",
+      "sleep",
+      "good night",
+      "😴",
+      "困了",
+      "被窝",
+      "休息"
+    ],
+    "animated": true,
+    "content_hash": "487d3f3afeaa37a2bd8e900e100d514a9c351b7ca13439b4180a30a4ec730655"
+  },
+  {
+    "id": "sleep",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "sleep",
+    "path": "stickers/demo/sleep/sleep.png",
+    "description": "sleep",
+    "keywords": [
+      "睡觉",
+      "晚安",
+      "sleep",
+      "good night",
+      "😴",
+      "困了",
+      "被窝",
+      "休息"
+    ],
+    "animated": false,
+    "content_hash": "592969385fac94217cf3c5f88f18ea4e3de707819b7193f5b3836f090b0a50ed"
+  },
+  {
+    "id": "sorry",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "sorry",
+    "path": "stickers/demo/sorry/sorry.png",
+    "description": "sorry",
+    "keywords": [
+      "抱歉",
+      "对不起",
+      "sorry"
+    ],
+    "animated": false,
+    "content_hash": "5931ffcab7cd6dd8252ff7fc1e725d7d8a194f73e305dd513f281e3f344cb303"
+  },
+  {
+    "id": "surprised",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "surprised",
+    "path": "stickers/demo/surprised/surprised.png",
+    "description": "surprised",
+    "keywords": [
+      "震惊",
+      "惊讶",
+      "surprised",
+      "😮"
+    ],
+    "animated": false,
+    "content_hash": "9c41f2bcd623b3524698658b8011118c86b67020d9c05b8d90f5dc6c33ed91e2"
+  },
+  {
+    "id": "thanks",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "thanks",
+    "path": "stickers/demo/thanks/thanks.png",
+    "description": "thanks",
+    "keywords": [
+      "谢谢",
+      "感谢",
+      "thanks",
+      "thank you"
+    ],
+    "animated": false,
+    "content_hash": "49faed52b9e27c7e468c8e83194ce70f74f515dc0fef0c82f4a16fa42dd8ca04"
+  },
+  {
+    "id": "think",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "think",
+    "path": "stickers/demo/think/think.png",
+    "description": "think",
+    "keywords": [
+      "思考",
+      "think",
+      "🤔"
+    ],
+    "animated": false,
+    "content_hash": "01d0dfc1c0677ae9503ac6fdf8a93c73232011a4ce5ae1ddbfb6ab09570d7b15"
+  },
+  {
+    "id": "work",
+    "pack": "demo",
+    "pack_name": "Demo Orb (CC0)",
+    "mood": "work",
+    "path": "stickers/demo/work/work.png",
+    "description": "work",
+    "keywords": [
+      "加班",
+      "工作",
+      "work",
+      "开工",
+      "上班",
+      "忙碌"
+    ],
+    "animated": false,
+    "content_hash": "b83ffb257e5d58309ee7d475589c40a2ae15c024d3184b6bbc7a4d3be583f04a"
+  }
+]

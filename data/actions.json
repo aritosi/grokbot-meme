@@ -1,0 +1,56 @@
+{
+  "start": [
+    "work",
+    "cpu"
+  ],
+  "working": [
+    "work",
+    "cpu"
+  ],
+  "success": [
+    "celebrate",
+    "happy",
+    "like"
+  ],
+  "done": [
+    "celebrate",
+    "happy",
+    "like"
+  ],
+  "fail": [
+    "sad",
+    "angry",
+    "confused"
+  ],
+  "error": [
+    "sad",
+    "angry",
+    "confused"
+  ],
+  "wait": [
+    "daily",
+    "sleep"
+  ],
+  "idle": [
+    "daily",
+    "sleep"
+  ],
+  "poke": [
+    "shy",
+    "meow",
+    "surprised",
+    "happy"
+  ],
+  "poke_back": [
+    "shy",
+    "meow",
+    "surprised",
+    "happy"
+  ],
+  "morning": [
+    "morning"
+  ],
+  "night": [
+    "sleep"
+  ]
+}
