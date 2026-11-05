@@ -7,7 +7,7 @@ set -eu
 SOURCE=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 TARGET=${GROKBOT_MEME_HOME:-$HOME/.grokbot-meme}
 
-command -v python3 >/dev/null 2>&1 || { echo "python3 is required (3.8+)" >&2; exit 1; }
+command -v python3 >/dev/null 2>&1 || { echo "python3 3.9+ is required" >&2; exit 1; }
 
 mkdir -p "$TARGET/bin" "$TARGET/src" "$TARGET/data" "$TARGET/stickers" "$TARGET/skill"
 cp "$SOURCE/bin/gb-meme" "$TARGET/bin/gb-meme"

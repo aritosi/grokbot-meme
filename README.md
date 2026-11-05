@@ -1,11 +1,40 @@
-# grokbot-meme
+<div align="center">
+  <img src="docs/demo.png" alt="grokbot-meme: one command returns a sticker path for Grok Bot">
+</div>
 
-给 [Grok Bot](https://x.ai) 的**零思考表情包技能**：模型不挑图、不写长提示词，脚本按聊天原文、任务事件和情绪选图，返回一行 JSON，Bot 只负责把附件发出去。
+<h1 align="center">grokbot-meme</h1>
 
-- **省 token**：选图、限频、去重、情绪状态全在本地脚本里，模型不参与决策，也不调用任何模型 API。
-- **零运行依赖**：标准库 Python 3.8+，不需要 pip install、不需要常驻服务、不需要数据库。
+<p align="center">
+  <b>给 Grok Bot 的零思考表情包技能。</b><br>
+  模型不挑图、不写提示词；脚本按原文、任务事件和情绪选图，返回一行 JSON。
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/"><img alt="Python 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white"></a>
+  <img alt="stdlib only" src="https://img.shields.io/badge/runtime-stdlib--only-2dd4bf">
+  <a href="LICENSE"><img alt="MIT" src="https://img.shields.io/badge/license-MIT-3b82f6"></a>
+  <img alt="assets CC0" src="https://img.shields.io/badge/demo%20assets-CC0-22c55e">
+</p>
+
+<p align="center">
+  <a href="#快速开始">快速开始</a> ·
+  <a href="#装进-grok-bot一步">接入 Grok Bot</a> ·
+  <a href="#命令">命令</a> ·
+  <a href="#图库">图库</a> ·
+  <a href="#配置">配置</a> ·
+  <a href="#测试">测试</a>
+</p>
+
+---
+
+## 为什么是脚本选图
+
+让模型“想一张表情”会带来三个问题：每轮多一次生成、结果不可复现、限频和去重只能靠提示词。`grokbot-meme` 把这件事变成一次本地函数调用：
+
+- **省 token**：选图、限频、去重、情绪状态全在脚本里，模型不参与决策，也不调用任何模型 API。
+- **零运行依赖**：标准库 Python 3.9+，不需要 pip install、不需要常驻服务、不需要数据库。
 - **开箱可用**：仓库自带 30 张原创 CC0 演示表情（28 静态 + 2 动图），装完立刻能发；自己的图包一条命令导入。
-- **可移植**：索引存相对路径，仓库放哪都能跑；`install.sh` 固定安装到 `~/.grokbot-meme`，移动/重新 clone 不会失效。
+- **可移植**：索引存相对路径，仓库放哪都能跑；`install.sh` 安装到 `~/.grokbot-meme`，移动或重新 clone 不会失效。
 - **可解释**：每次返回 `reason`（`keyword:哭`、`semantic:…`、`event:fail`、`fsm:happy`、`rate_limited`），出问题能直接定位。
 
 ## 快速开始
@@ -26,8 +55,11 @@ cd grokbot-meme
 
 ```sh
 ~/.grokbot-meme/bin/gb-meme pick --text '今天好累，想哭'
-{"ok": true, "send": true, "mood": "sad", "id": "sad", "pack": "demo", "animated": false, "path": "/home/you/.grokbot-meme/stickers/demo/sad/sad.png", "reason": "keyword:哭", ...}
+{"ok": true, "send": true, "mood": "sad", "id": "sad", "pack": "demo", "animated": false,
+ "path": "/home/you/.grokbot-meme/stickers/demo/sad/sad.png", "reason": "keyword:哭", ...}
 ```
+
+> 想换安装位置：`GROKBOT_MEME_HOME=/opt/grokbot-meme ./install.sh`。卸载运行 `./uninstall.sh`。
 
 ## 装进 Grok Bot（一步）
 
@@ -38,6 +70,12 @@ cd grokbot-meme
 之后正常聊天。技能要求 Bot 在每条最终回复前运行 `gb-meme pick --text '<用户原文>'`；`send:true` 时把返回的 `path` 作为附件发给用户，`send:false` 就不发。默认 `active` 模式会持续配图；想只在命中关键词时发，改 `set-mode normal`。
 
 技能文件里的命令是绝对路径，所以 Bot 的 shell 不需要配置 PATH。`~/.local/bin/gb-meme` 只是给人用的快捷方式。
+
+## 效果
+
+真实终端输出（上图）和仓库自带的 30 张 CC0 表情：
+
+<img src="docs/gallery.png" alt="30 original CC0 demo stickers" width="100%">
 
 ## 命令
 
@@ -68,7 +106,7 @@ cd grokbot-meme
 
 ## 选图优先级
 
-```
+```text
 --force > poke/事件映射 > 关键词/语义情绪 > 情绪粘性(FSM) > active 默认 daily > normal 不触发
 ```
 
@@ -85,7 +123,7 @@ cd grokbot-meme
 
 ## 图库
 
-仓库只带 `stickers/demo`（原创 CC0）。不附带任何第三方表情包：各平台图包的再分发许可差异很大，需要你自己确认。
+仓库只带 `stickers/demo`（原创 CC0，30 张）。不附带任何第三方表情包：各平台图包的再分发许可差异很大，需要你自己确认。
 
 导入自己的图包：
 
@@ -96,7 +134,7 @@ gb-meme import-pack ./my-pack-dir/
 
 图包结构（ZIP 或目录都可以）：
 
-```
+```text
 manifest.json            # {"id": "my-pack", "name": "我的表情包"}
 memes/
   happy/a.png
@@ -131,17 +169,18 @@ index.db                 # 可选：sqlite 表 memes(path, caption, keywords)
 
 ## 目录
 
-```
-bin/gb-meme            # 入口（python3）
-src/gb_meme.py         # 匹配、选图、限频、导入、索引
-skill/SKILL.md         # UpdateSkill 用的技能正文
-data/actions.json      # 事件 → 情绪映射
-data/index.json        # 相对路径索引（提交在仓库里，装完即用）
-stickers/demo/         # 原创 CC0 演示图库
-tools/make_demo_pack.py# 可选的演示素材生成器（需要 Pillow，仅开发用）
-tests/                 # 15 个用例，临时目录隔离
-install.sh             # 安装到 ~/.grokbot-meme + PATH 软链
-uninstall.sh           # 卸载
+```text
+bin/gb-meme             # 入口（python3）
+src/gb_meme.py          # 匹配、选图、限频、导入、索引
+skill/SKILL.md          # UpdateSkill 用的技能正文
+data/actions.json       # 事件 → 情绪映射
+data/index.json         # 相对路径索引（提交在仓库里，装完即用）
+stickers/demo/          # 原创 CC0 演示图库
+tools/make_demo_pack.py # 可选的演示素材生成器（需要 Pillow，仅开发用）
+tests/                  # 15 个用例，临时目录隔离
+docs/                   # README 截图
+install.sh              # 安装到 ~/.grokbot-meme + PATH 软链
+uninstall.sh            # 卸载
 ```
 
 ## 测试
@@ -161,4 +200,4 @@ uninstall.sh           # 卸载
 
 ## License
 
-代码 MIT（见 `LICENSE`）。演示素材 CC0-1.0（见 `NOTICE`）。仓库不包含任何第三方表情包素材。
+代码 MIT（见 [`LICENSE`](LICENSE)）。演示素材 CC0-1.0（见 [`NOTICE`](NOTICE)）。仓库不包含任何第三方表情包素材。
